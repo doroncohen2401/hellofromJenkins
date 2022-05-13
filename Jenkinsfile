@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('stg1') {
             steps {
                bat '''
                 python main.py
